@@ -1,0 +1,114 @@
+@keyframes homeAnim {
+    from {
+        width: 200%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes img {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+img {
+    height: 300px;
+    animation: img 4s ease forwards;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 230px 400px 70px 200px;
+    animation: headAnim 2s ease forwards;
+    /*padding-top deve ser +80px; e bottom -80px*/
+}
+
+#desc {
+    margin: auto 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#desc h1 {
+    font-size: 30px;
+}
+
+#desc span {
+    color: rgb(100, 100, 250);
+}
+
+#desc p {
+    color: gray;
+    font-size: 20px;
+}
+
+@media (max-width: 1050px){
+    section {
+        padding: 230px 200px 70px;
+    }
+}
+
+@media (max-width: 800px){
+    section {
+        padding: 230px 100px 70px;
+    }
+    img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 600px){
+    section {
+        padding: 150px 30px 70px;
+    }
+    img {
+        height: 120px;
+    }
+    #desc h1 {
+        font-size: 20px;
+    }
+    
+    #desc p {
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width: 400px){
+    section {
+        padding: 150px 20px 70px;
+    }
+    img {
+        height: 100px;
+    }
+    #desc h1 {
+        font-size: 20px;
+    }
+    
+    #desc p {
+        font-size: 13px;
+    }
+    
+}
+
+@media (max-width: 330px){
+    section {
+        padding: 150px 20px 70px;
+    }
+    img {
+        height: 100px;
+    }
+    #desc h1 {
+        font-size: 20px;
+    }
+    
+    #desc p {
+        font-size: 10px;
+    }
+    
+}

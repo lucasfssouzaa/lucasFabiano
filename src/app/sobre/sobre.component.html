@@ -1,0 +1,37 @@
+<section>
+    <h1> Sobre mim</h1>
+    <p>
+        Sou formado em Administração de empresas e estudante de Análise e Desenvolvimento 
+        de Sistemas, apaixonado por tecnologia, análise de dados e resolução 
+        de problemas. Com uma mente lógica e habilidade com números, sempre 
+        busco unir criatividade e eficiência em tudo o que faço.
+ 
+        Tenho habilidades em desenvolvimento full stack, SQL, Excel, Power BI e outras 
+        ferramentas que permitem criar soluções inteligentes, otimizando processos 
+        e gerando insights valiosos. Estou sempre em busca de novos aprendizados 
+        para aprimorar meu trabalho e entregar resultados impactantes.
+    </p>
+    <h2 id="titulo_video">Explorando Minhas Criações</h2>
+    <div id="projeto">
+        <div class="video-container">
+          <video #videoPlayer playsinline>
+            <source src="beat_speedrun.mp4" type="video/mp4" />
+            Seu navegador não suporta o vídeo.
+          </video>
+          <button id="play" (click)="togglePlayPause(videoPlayer)">
+            {{ isPlaying ? '⏸' : '▶' }}
+          </button>
+        </div>
+        <div id="video_descricao">
+          <h2>Sobre o Projeto</h2>
+          <p>
+            Este projeto acadêmico de e-commerce foi desenvolvido para oferecer 
+            uma experiência intuitiva e eficiente. O sistema conta com um catálogo 
+            dinâmico, funcionalidade de carrinho de compras com seleção 
+            personalizada de produtos e autenticação de usuários para criação e 
+            acesso de contas.
+          </p>
+        </div>
+      </div>
+      
+</section>
